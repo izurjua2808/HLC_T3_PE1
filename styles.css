@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Klee One", serif;
+}
+
+header {
+    background-color: #4476a8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+        color: #f4f4f4 !important;
+        font-size: 20px;
+      }
+
+nav {
+    background-color: #4476a8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.image-container {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.centered-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.configuraciontabla {
+    margin-left: 30px;
+}
+
+.informaciontexto {
+    margin-left: 0px;
+}
+
+th {
+    background-color: #1abc9c;
+    color: #f4f4f4;
+}
+
+x {
+    background-color: #d3f8f7;
+}
+
+li {
+    margin-left: 20px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  }
+.box {
+    background-color: #3498db;
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.box:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+    min-height: 100vh;
+    
+}   
